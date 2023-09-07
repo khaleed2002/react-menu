@@ -1,0 +1,40 @@
+.categories-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+}
+
+.categories-item {
+    margin: 10px;
+    /* Add some spacing between buttons */
+
+}
+
+.categories-item button {
+    background-color: #f59e0b;
+    color: #ffffff;
+    /* Text color */
+    padding: 10px 20px;
+    /* Padding for the buttons */
+    border: none;
+    /* Remove button border */
+    border-radius: 5px;
+    /* Add rounded corners to the buttons */
+    cursor: pointer;
+    /* Change cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth background color transition on hover */
+    text-transform: capitalize;
+    
+
+}
+
+/* Hover effect for buttons */
+li button:hover {
+    background-color: #d78409
+    /* Lighter yellow color on hover */
+}
